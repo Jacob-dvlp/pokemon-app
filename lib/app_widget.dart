@@ -1,3 +1,5 @@
+import 'package:app_pokmon/presetation/styles/colors.dart';
+
 import 'imports.dart';
 import 'src/dependece/dependeces.dart' as dependece;
 
@@ -15,7 +17,7 @@ class AppWidget extends StatelessWidget {
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
         initialRoute: '/',
-        theme: ThemeData(primaryColor: const Color(0xfffeca05)),
+        theme: ThemeData(primaryColor: background),
         routes: AppRoutes.routes,
       ),
     );
